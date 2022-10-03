@@ -45,3 +45,6 @@ Provide the absolute path of your machine file system.
 Note: code assumes, this utility is installed on the machine.
 if not, it may have to execute command using java runtme (which is not part of the codebase)
 
+## Test Results:
+
+Included the file _Target_UseCase_TestResults.doc_ in root directory of codebase.
