@@ -36,7 +36,11 @@ Sample values are already published. Can be modified to view results for other o
 
 **API name: _Files_**
 Trigger this api using the postman.
-Provide the absolute path of your machine file system.
+Provide the absolute path of your machine file system. 
+
+**_Make sure you provide the encoded absolute path in input. Otherwise some tomcat versions are rejecting it_**
+
+
 
 Note: code assumes, this utility is installed on the machine.
 if not, it may have to execute command using java runtme (which is not part of the codebase)
