@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "47e48c18-eafc-44bf-b9ef-8fad92f824c2",
+		"name": "Target",
+		"description": "Target test project.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Route By Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/routeByName?name=METRO Blue Line",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"routeByName"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "METRO Blue Line"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Routes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/routes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"routes"
+					]
+				},
+				"description": "Routes"
+			},
+			"response": []
+		},
+		{
+			"name": "Directions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/directions/902",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"directions",
+						"902"
+					]
+				},
+				"description": "Routes"
+			},
+			"response": []
+		},
+		{
+			"name": "Stops",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/stops/901/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"stops",
+						"901",
+						"1"
+					]
+				},
+				"description": "Routes"
+			},
+			"response": []
+		},
+		{
+			"name": "Next Departure Time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/nextDepartureTime?routeName=METRO Blue Line&directionName=north&stopName=Target Field Station Platform 2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"nextDepartureTime"
+					],
+					"query": [
+						{
+							"key": "routeName",
+							"value": "METRO Blue Line"
+						},
+						{
+							"key": "directionName",
+							"value": "north"
+						},
+						{
+							"key": "stopName",
+							"value": "Target Field Station Platform 2"
+						}
+					]
+				},
+				"description": "Routes"
+			},
+			"response": []
+		},
+		{
+			"name": "Files",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/files?absolutePath=C:\\Users\\user1\\Downloads\\dummy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"files"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "absolutePath",
+							"value": "C:\\Users\\user1\\Downloads\\dummy"
+						}
+					]
+				},
+				"description": "Routes"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
