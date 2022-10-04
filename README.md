@@ -1,6 +1,6 @@
 # Demo Application - Target
 
-Developed using spring boot and Maven.
+Developed using spring boot and Maven. **_Uses Java 8_**
 
 ## Run the application:
 
